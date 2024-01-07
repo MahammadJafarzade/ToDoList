@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/_976053_home_home_page_homepage_homepages_icon"
+        android:title="@string/nav_menu_home"
+        >
+    </item>
+    <item
+        android:id="@+id/noteFragment"
+        android:icon="@drawable/_290854_grid_images_medium_icons_small_icons_thumbnails_icon"
+        android:title="@string/nav_menu_detail"
+        >
+    </item>
+</menu>
