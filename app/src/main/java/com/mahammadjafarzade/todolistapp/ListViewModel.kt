@@ -18,7 +18,7 @@ class ListViewModel @Inject constructor(val noteRepository: NoteRepository) : Vi
         return noteRepository.getAll()
     }
 
-    fun insert(note: Note){
+    fun insertNote(note: Note){
         viewModelScope.launch {
             noteRepository.insert(note)
         }

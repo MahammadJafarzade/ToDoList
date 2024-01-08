@@ -40,9 +40,9 @@ class ListFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentListBinding.inflate(inflater, container,false)
+        binding = FragmentListBinding.inflate(inflater)
 
-        binding.listBtn.setOnClickListener(){
+            binding.listBtn.setOnClickListener(){
             openNotePage()
         }
 
